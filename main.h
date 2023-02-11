@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Usitha Indeewara. All Rights Reserved.
+// Copyright (c) 2023 Usitha Indeewara. All Rights Reserved.
 
 #include "funcs.h"
 #include <iostream>

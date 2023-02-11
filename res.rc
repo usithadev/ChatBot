@@ -8,7 +8,7 @@ BEGIN
      BEGIN
         VALUE "CompanyName", "Usitha Indeewara"
         VALUE "FileDescription", "A chatbot."
-        VALUE "LegalCopyright", "Copyright (c) 2022 Usitha Indeewara. All Rights Reserved"
+        VALUE "LegalCopyright", "Copyright (c) 2023 Usitha Indeewara. All Rights Reserved"
         VALUE "OriginalFilename", "ChatBot.exe"
         VALUE "ProductVersion", "1.0.0\0"
         VALUE "FileVersion", "1.0.0\0"
