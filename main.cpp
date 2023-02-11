@@ -1,4 +1,4 @@
-// Copyright (c) 2022 Usitha Indeewara. All Rights Reserved.
+// Copyright (c) 2023 Usitha Indeewara. All Rights Reserved.
 
 #include "main.h"
 
@@ -10,11 +10,23 @@ data_t data = {
     {
         {"bye", "see ya"},
         {"See you later!", "Good Bye"}
+    },
+    {
+        {"how are you"},
+        {"I'm doing great! How about you?", "I fine. How are you?"}
+    },
+    {
+        {"fine", "doing great"},
+        {"Nice", "Great"}
+    },
+    {
+        {"what can you do"},
+        {"nothing"}
     }
 };
 
 str chatbot(str inp) {
-    str result = rdm(std::vector<str>{"Sorry I didn't understand!", "Hmm"});
+    str result = rdm(std::vector<str>{"Sorry I didn't understand!", "Hmm", "Nice", ":)"});
 
     for(const auto &dataset: data) {
         for(const auto &checker : dataset.i) {
@@ -41,7 +53,7 @@ str input(T prompt) {
 }
 
 int main() {
-    print("Welcome! This is a simple chatbot by Usitha Indeewara. \nCopyright (c) 2022 Usitha Indeewara. All Rights Reserved.\n\n\n");
+    print("Welcome! This is a simple chatbot by Usitha Indeewara. \nCopyright (c) 2023 Usitha Indeewara. All Rights Reserved.\n\n\n");
 
     while(true) {
         str userinput = input("You: ");
