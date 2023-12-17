@@ -1,6 +1,6 @@
 # CHATBOT
 
-This is a chatbot made with C++. Just wrote the algorithm. I'll add more data and make it more intelligent later when I have time. Contributions are wormly welcome.  
+This is a chatbot made with C++. Just wrote the algorithm. I'll add more data and make it more intelligent later when I have time. Contributions are warmly welcome.  
 
 How to build:
 
